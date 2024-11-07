@@ -166,7 +166,9 @@ public class Controller {
         int numArbitro = 0;
         
         for (int i = 0; i < numPases; i++) {
-            msg += equipos[0].getJugadores()[numJugador].getNombre() + equipos[0].getJugadores()[numJugador].pasar() + equipos[0].getJugadores()[numJugador+1].getNombre() + "\n";
+            msg += equipos[0].getJugadores()[numJugador].getNombre() 
+            + equipos[0].getJugadores()[numJugador].pasar()
+             + equipos[0].getJugadores()[numJugador+1].getNombre() + "\n";
             
 
             msg += arbitros[numArbitro].desplazarse() + "\n\n";
